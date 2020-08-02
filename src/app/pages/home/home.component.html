@@ -1,0 +1,8 @@
+<div class="home-container">
+    <div class="search">
+        <app-search (Selected)="Update($event)"></app-search>
+    </div>
+    <div class="favorites">
+        <app-favorites [listFavorit]="listFavorites"></app-favorites>
+    </div>
+</div>
